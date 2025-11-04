@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Google+Sans&weight=600&size=30&duration=4000&pause=1000&color=63A4FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B+I'm+David+Cyril;Welcome+to+My+Profile!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Google+Sans&weight=600&size=30&duration=4000&pause=1000&color=63A4FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B+I'm+Pease+Ernest;Welcome+to+My+Profile!" alt="Typing SVG" />
   </a>
 </p>
 
@@ -12,13 +12,11 @@
 
 <div align="center">
   
-![](https://github-readme-stats.vercel.app/api?username=ErnestTechHouse&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats.vercel.app/api?username=Ernest12287&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
   
 </div>
 
-<p align="center">
-<a href="https://donate.david-cyril.net.ng"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%E2%98%95️-orange?style=for-the-badge" /></a>
-</p>
+
 
 <p align="center">
   <a href="https://github.com/andhikagg"><img src="https://count.getloli.com/get/@andhikagg?theme=rule34" alt="visitor"></a>
