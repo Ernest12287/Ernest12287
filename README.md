@@ -1,71 +1,97 @@
-# 👋 Hi, I'm Ernest!
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:83eaf1,100:63a4ff&height=200&text=Pease%20Ernest%20of%20Ernest%20Tech%House&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Full%20Stack%20Developer%20|%20API%20Developer%20|%20Software%20Enginner&descAlignY=55&descSize=15"/>
+</div>
 
-### 🎯 Tech Enthusiast • Web Dev Wizard • Future OS Architect  
-Welcome to my GitHub profile! I build bots, teach code, and engineer ambitious dreams under the banner of **Ernest Tech House**.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Google+Sans&weight=600&size=30&duration=4000&pause=1000&color=63A4FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B+I'm+David+Cyril;Welcome+to+My+Profile!" alt="Typing SVG" />
+  </a>
+</p>
 
----
 
-## 🛠️ What I Do
-- 💻 Founder of **Ernest Tech House** — AI bots, websites, tutorials & dreams
-- 🤖 Bot dev magician — `whatsapp-web.js`, `Baileys`, and soon the almighty `Ernest Phantom`
-- 📱 Built WhatsApp tools like number checkers & text-based games
-- 🌐 Creator of the official [Ernest Tech House website](https://ernest-movies.vercel.app)
-- 🎬 Made **Ernest Movie Palace** — your go-to for film-style vibes
-- 📹 Teaching HTML, CSS, and JavaScript on [YouTube](https://www.youtube.com/@ErnestTechHouse)
-- 🧠 Cooking: `ErnestLang`, `ErnestNet`, `Ernest OS` (gaming-focused OS)
-- 🎥 Laying foundations for *Ernest Studios* — because Netflix ain’t ready
-- 📚 Alumni of Vihiga Boys High School (and proud 💪)
 
----
+<div align="center">
+  
+![](https://github-readme-stats.vercel.app/api?username=ErnestTechHouse&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+  
+</div>
 
-## 🤖 Active Bots
-| Name | Tech | Status | Purpose |
-|------|------|--------|---------|
-| `ErnestV1` | whatsapp-web.js | 🚧 Starting | Modular & game-heavy |
-| `ErnestV2` | Baileys | ✅ Live & deploy-ready | Fast, clean, stable |
-| `Ernest Phantom` | 🧪 In progress | 🔮 Future beast | Ultimate AI bot w/ everything |
+<p align="center">
+<a href="https://donate.david-cyril.net.ng"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%E2%98%95️-orange?style=for-the-badge" /></a>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/andhikagg"><img src="https://count.getloli.com/get/@andhikagg?theme=rule34" alt="visitor"></a>
+</p>
 
-## 🧪 Projects & Experiments
-- 🎮 **Ernest Game** – fun + terminal game experience
-- 🎞 **Ernest Movie Palace** – all your faves, in one slick site
-- 🛰️ **ErnestNet** – proxy/VPN that finds fastest routes (coming soon)
-- 💬 **WhatsApp Number Checker** – instantly verifies if a number is WhatsApp-enabled
-- 🤯 **ErnestLang** – error-fixing programming language (yes, for real)
-- 💻 **Ernest OS** – a no-distraction gaming OS (because performance matters)
+<div align="center">
+  <h2>💫 Connect With Me</h2>
+  <img align="right" alt="Coding" width="400" src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+</div>
 
----
 
-## 🧰 Tech Stack
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+  
 
----
+<a href="https://wa.me/254793859108"><img src="https://img.shields.io/badge/Contact Ernest-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://t.me/ernesttechhouse"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=telegram&logoColor=white" />
+<a href="https://www.youtube.com/@ErnestTechHouse-y2l"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@DavidCyril_TECH" /><br>
 
-## 📊 GitHub Stats
+  <br>
+  <img width="100%" src="https://github-widgetbox.vercel.app/api/profile?username=Ernest12287&data=followers,repositories,stars,commits&theme=nautical"/>
+</div>
 
-![Ernest's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ernest12287&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ernest12287&layout=compact&theme=radical)
+<div align="center">
+  <h2>🛠️ Languages & Tools</h2>
+  
+  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+  ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+  ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+  ![VS Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 
----
+  <img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Tech%20Stack&align=center&borderRadius=5&fontSize=20&lineHeight=10&lineCount=2&theme=github_dark&gap=13&line1=node.js,node.js,339933;express,express,000000;javascript,javascript,F7DF1E;&line2=mongodb,mongodb,47A248;mysql,mysql,4479A1;git,git,F05032;" alt="Tech Stack" />
+</div>
 
-## 🏆 GitHub Trophies
+<div align="center">
+  <h2>📊 GitHub Stats</h2>
+  <img src="https://github-stats-alpha.vercel.app/api?username=Ernest12287&cc=000&tc=fff&ic=fff&bc=000" alt="Stats">
+  
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ernest12287&theme=tokyonight" width="100%">
+  
+  <p align="center">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ernest12287&theme=tokyonight" width="45%">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ernest12287&theme=tokyonight" width="45%">
+  </p>
+</div>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Ernest12287&theme=radical&margin-w=10&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+<div align="center">
+  <h2>🏆 GitHub Trophies</h2>
+  <img src="https://github-profile-trophy.vercel.app/?username=Ernest12287&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%"/>
+</div>
 
----
+<div align="center">
+  <h2>📈 Contribution Graph</h2>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ernest12287&bg_color=0d1117&color=63a4ff&line=83eaf1&point=63a4ff&area=true&hide_border=true&radius=8" width="100%">
+</div>
 
-## 🔗 Let's Connect
-- 🎥 [YouTube – Ernest Tech House](https://www.youtube.com/@ErnestTechHouse)
-- 📧 Email: `peasseernest8@gmail.com`
-- 🧠 *“Reminding my son of the rules daily until he grows out of the house.”* 😄
 
----
 
-### ⚡ Bonus Mood
-> “Code like nobody’s watching, build like the future depends on it, and flex like you’re already legend.” 💼🔥
-> "live like a legend and be cautious because the world will not always be with you "
+<div align="center">
+
+  
+
+  
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%">
+  
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Google+Sans&weight=600&size=24&pause=1000&color=63A4FF&center=true&vCenter=true&width=435&lines=Thanks+for+visiting!+%F0%9F%91%8B;Let's+code+and+learn+together!+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:83eaf1,100:63a4ff&height=120&section=footer"/>
