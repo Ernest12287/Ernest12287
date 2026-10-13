@@ -66,10 +66,16 @@ flowchart LR
 ![Qt6](https://img.shields.io/badge/Qt6-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Chromium](https://img.shields.io/badge/Chromium_WebEngine-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
-![Version](https://img.shields.io/badge/latest-v0.1.9-63a4ff?style=flat-square)
+![Latest release](https://img.shields.io/github/v/release/BunElysiaReact/nothing-browser?style=flat-square&color=63a4ff&label=latest)
 ![Platforms](https://img.shields.io/badge/Linux_%7C_macOS_%7C_Windows-333?style=flat-square)
 
 A **scraper-first browser** for API reverse engineering, web scraping and automation research. Most browsers hide the web from you; this one exposes it.
+
+<p align="center">
+  <img src="assets/nothing-browser.png" width="85%" alt="Nothing Browser: scraper-first browser built on Qt6 + Chromium"/>
+  <br/>
+  <sub>Nothing Browser, Phase 1 (Qt6 + Chromium WebEngine)</sub>
+</p>
 
 - 🔍 Full network inspector: every request, response, WebSocket frame, cookie and storage write
 - 📤 One-click export to Python `requests`, `curl_cffi`, cURL, JS fetch or raw HTTP
@@ -92,7 +98,7 @@ A **scraper-first browser** for API reverse engineering, web scraping and automa
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![QuickJS](https://img.shields.io/badge/QuickJS-F7DF1E?style=flat-square&logoColor=black)
 ![SDL2](https://img.shields.io/badge/SDL2-22314E?style=flat-square)
-![libcurl](https://img.shields.io/badge/curl--impersonate-073551?style=flat-square&logo=curl&logoColor=white)
+![libcurl](https://img.shields.io/badge/libcurl-073551?style=flat-square&logo=curl&logoColor=white)
 ![Status](https://img.shields.io/badge/status-pre--alpha_%7C_in_development-orange?style=flat-square)
 
 The next phase of Nothing Browser: **my own engine, its own API and client, and everything around it**, built from the ground up because injecting JS into Qt kept fighting me. It replaces Chromium *and* the old automation library. One goal: **be invisible.**
@@ -107,16 +113,22 @@ libcurl ──▶ Moonbug ──▶ NULLBYTE ──▶ TinyElysia ──▶ Dash
  HTML ──▶ Gumbo ──▶ DOM ◀──▶ QuickJS (DOM bridge)
 ```
 
+<p align="center">
+  <img src="assets/moonbug-dashboard.png" width="90%" alt="Moonbug capture dashboard showing live requests, timing breakdown and wire-order headers"/>
+  <br/>
+  <sub>Moonbug, live: every request the engine makes, with timing and headers in wire order</sub>
+</p>
+
 **✅ Built and tested**
 
-- 🕸️ **Moonbug**: LucyN *is* the HTTP client, so it captures decrypted traffic natively. No MITM certs, no proxy, nothing a page can reach
+- 🕸️ **Moonbug**: LucyN *is* the HTTP client, so it captures decrypted traffic natively, with a DNS / connect / TLS / first-byte timing breakdown and headers in wire order. No MITM certs, no proxy, nothing a page can reach
 - 🔐 **NULLBYTE**: HMAC-SHA256 signing, so captured traffic can be proven untampered
 - 🧩 **TinyElysia**: HTTP + WebSocket server in C/C++ (Elysia-inspired, zero Bun), serving a live capture dashboard on localhost
 - 🌳 **DOM + QuickJS bridge**: `document`, `fetch`, XHR, cookies, timers and per-origin storage, enough to scrape JS-rendered pages with no pixels
 - 💉 **LucyScript**: userscripts injected through a shell page, with `@run-at start|end`, plus before/after DOM snapshots and diffs
-- 🎭 **Identity profiles**: one consistent "person" per session (UA, GPU, fonts, TLS/HTTP2 fingerprint via curl-impersonate, Chrome header order). Consistency beats randomness
+- 🎭 **Identity profiles**: one consistent "person" per session (UA, client hints, platform values, Chrome header order). Consistency beats randomness
 - ⬇️ **Streaming downloads** straight to disk, using the same identity and cookie jar
-- 🔌 **JS client** over newline-delimited JSON on stdio: no TCP port, nothing the page can see, and crash-safe promises
+- 🔌 **JS client** over newline-delimited JSON on stdio: `visit`, `extract`, `eval`, `click`, `waitFor`, cookies and downloads. No TCP port, nothing the page can see
 - 📦 **Portable by design**: all data lives in `nothing-data/` next to the binary. Delete the folder and the browser forgets everything
 
 **🔨 Coming next**
@@ -124,23 +136,23 @@ libcurl ──▶ Moonbug ──▶ NULLBYTE ──▶ TinyElysia ──▶ Dash
 - 👻 **Ghostful Mode**: no fake headless, just a real SDL window with the curtains drawn
 - 🖼️ SoftwarePainter, block/inline layout and basic flexbox
 - 🛡️ Built-in ad blocker at the request layer, cookie persistence
-- 🧬 Fingerprint hardening and process isolation
+- 🧬 **curl-impersonate** TLS/HTTP2 fingerprinting (the dashboard honestly flags requests as *NOT impersonating* until it lands), fingerprint hardening and process isolation
 
 ```js
 import Lucyn from "nothing-browser";
 
-const a = new Lucyn({ profile: "default", ghostful: true, moonbug: true });
+const a = new Lucyn({ profile: "chrome", moonbug: true });
 
-await a.visit("https://example.com");
-const title = await a.extract("title");
+a.moonbug.onRequest(r => console.log(r.status, r.url, r.sig));   // the wiretap, from JS
 
-a.moonbug.onRequest(req => console.log(req.url));   // the wiretap, from JS
+const { status, title } = await a.visit("https://books.toscrape.com");
+console.log(status, title);
 await a.close();
 ```
 
 **The rendering promise:** did it render? ✅ Is it pretty? 💩 Can I scrape it? 👻
 
-*Stealth is a measured result, not a claim: every build is checked against tls.peet.ws, bot.sannysoft.com, CreepJS and BrowserLeaks, and a failing check becomes a ticket. Named after LucyN. She knows why.* 👀
+*Stealth is a measured result, not a claim: the test plan is tls.peet.ws, bot.sannysoft.com, CreepJS and BrowserLeaks, and every failing check becomes a ticket. Named after LucyN. She knows why.* 👀
 
 ---
 
@@ -151,6 +163,13 @@ await a.close();
 ![Status](https://img.shields.io/badge/v1.1.0--beta-out_now-63a4ff?style=flat-square)
 
 *Your midnight cinema, always open.* A free Android app for movies, series and anime: adless streaming, offline downloads, a native video player, TMDB metadata, live channels, and weekly Saturday patches. Rebuilt from scratch in **100% native Kotlin** because the old version kept crashing and I refused to ship something that falls over.
+
+<p align="center">
+  <img src="https://nothing-movies-website.pages.dev/photo_2026-10-04_06-08-12.jpg" width="23%" alt="NothingMovieStore: Movie list"/>
+  <img src="https://nothing-movies-website.pages.dev/photo_2026-10-04_06-07-58.jpg" width="23%" alt="NothingMovieStore: Home library"/>
+  <img src="https://nothing-movies-website.pages.dev/photo_2026-10-04_06-07-50.jpg" width="23%" alt="NothingMovieStore: Movie details"/>
+  <img src="https://nothing-movies-website.pages.dev/photo_2026-10-04_06-07-54.jpg" width="23%" alt="NothingMovieStore: Season details"/>
+</p>
 
 [🌐 Website](https://nothing-movies-website.pages.dev/) · [💬 Telegram](https://t.me/nothingmoviestore)
 
